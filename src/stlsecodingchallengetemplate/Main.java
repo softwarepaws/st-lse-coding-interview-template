@@ -8,7 +8,7 @@ public class Main {
   public static void main(String[] args) {
 
     // run tests and count passing/failing
-    Result result = JUnitCore.runClasses(TestJunit.class);
+    Result result = JUnitCore.runClasses(BankServiceTest.class);
     int testsRun = result.getRunCount();
     int testsFailed = result.getFailureCount();
 
